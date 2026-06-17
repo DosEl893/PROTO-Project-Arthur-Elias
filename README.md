@@ -1,5 +1,5 @@
 # PROTO-Project-Arthur-Elias
-Project PROTO2 Arthur &amp; Elias
+Project PROTO2 Elias &amp; Arthur
 
 
 Creative/Survival
