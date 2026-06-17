@@ -13,7 +13,8 @@ Der Node-RED-Flow ist mit zwei Taster am Digilab (PIN 35,PIN 36) verbunden. Jede
 
 Online Spieler in LCD
 
-
-Music
+Der dargestellte Node-RED-Flow ermöglicht die Anzeige der aktuellen Spieleranzahl auf dem Minecraft-Server. Wird ein Knopf gedrückt, sendet der Flow eine Anfrage an den Server. Die erhaltenen Informationen werden in msg.payload gespeichert und anschließend von einer Funktion verarbeitet. Das Ergebnis wird auf einem Display des Raspberry Pi ausgegeben. So kann jederzeit angezeigt werden, wie viele Spieler aktuell auf dem Server online sind.
 
 Leben des Spielers in Led
+
+Der dargestellte Node-RED-Flow ermöglicht die Anzeige der aktuellen Lebenspunkte (Herzen) eines Spielers auf dem Minecraft-Server. Wird ein Knopf am Digilab gedrückt, werden die Spielerinformationen vom Server abgerufen. Eine Funktion verarbeitet anschließend die Anzahl der verbleibenden Herzen und steuert mehrere LEDs an. Jede LED repräsentiert einen bestimmten Gesundheitszustand des Spielers. Je nach Anzahl der Herzen werden die entsprechenden LEDs ein- oder ausgeschaltet, sodass der aktuelle Lebensstatus des Spielers direkt über die LED-Anzeige sichtbar wird.
